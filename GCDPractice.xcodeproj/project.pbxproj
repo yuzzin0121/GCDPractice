@@ -13,6 +13,7 @@
 		61864C1C2B62A64A0073C175 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61864C1A2B62A64A0073C175 /* Main.storyboard */; };
 		61864C1E2B62A64D0073C175 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61864C1D2B62A64D0073C175 /* Assets.xcassets */; };
 		61864C212B62A64D0073C175 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61864C1F2B62A64D0073C175 /* LaunchScreen.storyboard */; };
+		61864C2A2B62B7160073C175 /* GCDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61864C292B62B7160073C175 /* GCDViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		61864C1D2B62A64D0073C175 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61864C202B62A64D0073C175 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61864C222B62A64D0073C175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61864C292B62B7160073C175 /* GCDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		61864C132B62A64A0073C175 /* GCDPractice */ = {
 			isa = PBXGroup;
 			children = (
+				61864C282B62B7050073C175 /* GCD */,
 				61864C142B62A64A0073C175 /* AppDelegate.swift */,
 				61864C162B62A64A0073C175 /* SceneDelegate.swift */,
 				61864C182B62A64A0073C175 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				61864C222B62A64D0073C175 /* Info.plist */,
 			);
 			path = GCDPractice;
+			sourceTree = "<group>";
+		};
+		61864C282B62B7050073C175 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				61864C292B62B7160073C175 /* GCDViewController.swift */,
+			);
+			path = GCD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 				61864C192B62A64A0073C175 /* ViewController.swift in Sources */,
 				61864C152B62A64A0073C175 /* AppDelegate.swift in Sources */,
 				61864C172B62A64A0073C175 /* SceneDelegate.swift in Sources */,
+				61864C2A2B62B7160073C175 /* GCDViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
